@@ -1,0 +1,29 @@
+Question 1:
+
+What determines whether a TestCase method will be run as a test?
+
+Your Answer:
+a TestCase method will be run as a test if it stats with the word "test" in it spelled exactly (no uppercase) as in 
+def test_this_thing(self):
+
+Question 2:
+
+Which TestCase method would you use to verify that calling a function with particular arguments raises a specific type of exception?
+
+Your Answer:
+self.assertRaises()
+Mentor Comments:
+none
+Question 3:
+
+What does the unittest framework print to indicate a successful test?
+
+Your Answer:
+It prints a dot(.) for each correct test.
+
+Question 4:
+
+What is the name of the testing framework we used in this lesson?
+
+Your Answer:
+unittest
