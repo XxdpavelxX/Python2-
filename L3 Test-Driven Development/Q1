@@ -1,0 +1,30 @@
+Question 1:
+
+What method would you normally use to perform work that was needed before each test?
+
+Your Answer:
+I would use the setUp method.
+
+
+Question 2:
+
+What happens if the setUp() method raises an exception?
+
+Your Answer:
+the test framework will declare this test to have errors, and the test method will not be run.
+
+
+Question 3:
+
+Which method do you call to clear up after an individual test?
+
+Your Answer:
+the tearDown() method
+
+
+Question 4:
+
+Why do TestCase methods not normally produce any output?
+
+Your Answer:
+Because coders normally do not want them to. This is for several reasons including 1) This makes it much easier to determine whether tests have passed or failed. 2) It's possible that nobody will read that output anyway. 
