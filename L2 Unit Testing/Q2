@@ -1,0 +1,32 @@
+Question 1:
+
+What is the basic rule of test-driven development?
+
+Your Answer:
+only write code to make a failing test pass.
+
+Question 2:
+
+What is a test fixture?
+
+Your Answer:
+A Test fixture is the setup for your tests. Fixtures include creation of temporary databases, servers, and anything else needed to run the test. 
+
+
+Question 3:
+
+Why would you normally prefer to put tests in a separate module from the code they are testing?
+
+Your Answer:
+It is cleaner this way and easier to find where an error is. Also if you make a mistake in coding the test you will know it wasnt in the module. Also running the module could lead to running the test as part of the module which would give undesired results.
+Mentor Comments:
+One reason:  testing code takes up space and if it can be separated from production code,
+it should be.  unittest is so brilliant because it gives you a clear way to reach into a module 
+and make it perform all its tricks, but without cluttering it up with testing code.
+
+Question 4:
+
+What does "YAGNI" stand for?
+
+Your Answer:
+"You Aint Gonna Need It"
