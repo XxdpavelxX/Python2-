@@ -1,0 +1,28 @@
+Question 1:
+
+What would be the best methods to use to verify the result of a floating-point computation during a test?
+
+Your Answer:
+The TestCase methods. AssertAlmostEqual() method would work best.
+also:  assertNotAlmostEqual() is available.  Works the same way.
+
+Question 2:
+
+Which function from the tempfile module would you use to create a new temporary directory?
+
+Your Answer:
+tempfile.mkdtemp() function.
+
+Question 3:
+
+Which function from the shutil module would you use to delete a directory including all files and subdirectories in it?
+
+Your Answer:
+shutil.rmtree()
+
+Question 4:
+
+What is the first step in test-driven development?
+
+Your Answer:
+The first step is writing tests.
