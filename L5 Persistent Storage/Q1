@@ -1,0 +1,25 @@
+Question 1:
+
+What does the statement pickle.dump(o, f) do?
+
+Your Answer:
+It serializes the object o and stores/writes it in the file f.
+
+
+Question 2:
+
+Should pickle files be opened in text or binary mode?
+
+Your Answer:
+Pickle files should be opened in binary mode so the interpreter doesnt modify the contents.
+
+Be sure to always open pickle files created with protocols >= 1 in binary mode. For the old ASCII-based pickle protocol 0 you can use either text mode or binary mode as long as you stay consistent.
+
+A pickle file written with protocol 0 in binary mode will contain lone linefeeds as line terminators and therefore will look â??funnyâ?? when viewed in Notepad or other editors which do not support this format.
+
+Question 3:
+
+What type of key values does the shelve module require you to use?
+
+Your Answer:
+The key values must be encodable as strings.
