@@ -1,0 +1,27 @@
+Question 1:
+
+What configuration item should you set on a button to establish the function to run when the button is clicked?
+
+Your Answer:
+The "command" configuration item.
+
+
+Question 2:
+
+How would you configure a button B so it does not respond to clicks?  B already exists, and has a handler function that should be left as is.
+
+Your Answer:
+self.B.config(state='disabled'). 
+Adding this to the button's function will gray out button B and make it unresponsive to clicks.
+
+
+Question 3:
+
+How would you specify that button B should appear immediately below the last object created with the same parent?
+
+Your Answer:
+I would use the pack() method with the parameter side="bottom" to make button B appear below the last created object.
+
+B.pack(side="bottom")
+
+As long as button B is created before "the last object" and has the side="bottom" parameter in the pack method it will appear before the last button in the created window. If you want B immediately below with no other button in between simply give both of them the side="bottom" parameter but have button B created right before "the last object"
