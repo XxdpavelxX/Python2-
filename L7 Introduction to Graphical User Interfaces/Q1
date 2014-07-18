@@ -1,0 +1,22 @@
+Question 1:
+
+Why is the desktop regarded as "two-and-a-half-dimensional"?
+
+Your Answer:
+Because, although it does not actually have a third dimension (depth), one window can cover another.
+
+
+Question 2:
+
+What is the usual name for a graphical component such as a button?
+
+Your Answer:
+widget
+
+
+Question 3:
+
+A Tkinter application is normally a subclass of which object?
+
+Your Answer:
+It is a subclass of Frame
