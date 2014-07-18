@@ -1,0 +1,21 @@
+Question 1:
+
+If t is a tarfile object, what method would you call to add file f to the archive?
+
+Your Answer:
+t.add(path)
+
+Question 2:
+
+What second argument to tarfile.open() specifies writing the archive to disk with Gzip compression?
+
+Your Answer:
+tarfile.open(fn, "w:gz")
+
+
+Question 3:
+
+What zipfile method returns the names of all files in the archive?
+
+Your Answer:
+zipfile.ZipFile.namelist()
