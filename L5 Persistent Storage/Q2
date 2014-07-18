@@ -1,0 +1,28 @@
+Question 1:
+
+What argument to shelve.open() will activate in-memory caching?
+
+Your Answer:
+By passing the keyword argument writeback=True.
+
+
+Question 2:
+
+What persistent format would you recommend if the data must be read by JavaScript as well as Python programs?
+
+Your Answer:
+I would recommend the JSON serialization format.
+
+JSON has become an important protocol / format with the advent of AJAX i.e. web pages that update without needing to be reloaded (example gmail).  Python typically resides on the server and talks to JavaScript browsers.  The
+primitive data types are communicable in both directions thanks to JSON.
+
+XML is another client-server transmission format understood across 
+languages.  We should remember that HTML itself is close to an XML and may be served in strict XML format as a mimetype.
+http://html5doctor.com/html-5-xml-xhtml-5/
+
+Question 3:
+
+What expression will serialize object x as an equivalent JSON string?
+
+Your Answer:
+json.dumps(x)
