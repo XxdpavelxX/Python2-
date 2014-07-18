@@ -1,0 +1,29 @@
+Question 1:
+
+Which function can you call to delete a single file from the filestore?
+
+Your Answer:
+The remove function. os.remove()
+
+Question 2:
+
+What is a "stub" function?
+
+Your Answer:
+It is a function that doesn't do anything, so the program(s) calling it don't show errors. The stubbed module provides functions with the correct interface, but no functionality. We don't expect the tests to succeed when we run them, but if the stubbed module is correctly structured we'll see failures rather than errors.
+
+
+Question 3:
+
+What should you verify regarding the status of the tests before replacing your stub functions with real code?
+
+Your Answer:
+You should verify that there are no errors in the code for the test or function. The "E" reports indicate that there is some mismatch between the tests and the stub. You need to get rid of any such problems before you replace the stubs with real functionality. If the stubbed module is correctly structured you will see failures rather than errors. 
+
+
+Question 4:
+
+What does the os.path.exists(f) function do?
+
+Your Answer:
+returns True if the path passed as an argument ('f' in this case) actually exists
