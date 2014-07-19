@@ -1,0 +1,22 @@
+Question 1:
+
+What type of MySQL column should be used to store Python datetime.datetime values?
+
+Your Answer:
+A "DATETIME" column.
+
+
+Question 2:
+
+What SQL statement should you use to ensure that table tbl does not exist? In other words, if it does exist, your statement will make sure it goes away.
+
+Your Answer:
+"DROP TABLE IF EXISTS tbl")
+
+
+Question 3:
+
+What name is used in the bind() call to describe a double-click on the left mouse button (for a right-handed user)?
+
+Your Answer:
+(""
