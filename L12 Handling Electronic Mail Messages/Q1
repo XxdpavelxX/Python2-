@@ -1,0 +1,34 @@
+Question 1:
+
+What function can you use to create an email.message.Message object from its string representation?
+
+Your Answer:
+message_from_string() function.
+
+
+Question 2:
+
+Which library would you use to send emails?
+
+Your Answer:
+smtplib library.
+
+
+Question 3:
+
+What is the structure of an email header?
+
+Your Answer:
+The four headers mentioned in this chapter are: Orig-date, From, To, and Subject.Two consecutive CRLFs separate an email's headers from its body.
+exanple of header use:
+msg = email.message_from_file(open(r'v:/workspace/HandlingEmail/src/example-email.txt'))
+msg['From']
+msg['To']
+msg['Date']
+msg['Subject']
+
+print(msg.as_string())
+From: anybody@work.com
+To: anybody@home.com
+Subject: Handling Emails With Python
+Date: 5 Aug 2010 10:00:00 -0700
