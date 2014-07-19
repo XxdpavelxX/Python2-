@@ -1,0 +1,26 @@
+Question 1:
+
+What methods are available to retrieve data from a database cursor after it has been used to execute a SQL 
+SELECT statement?
+
+Your Answer:
+fethone(), fetchmany(), and fetchall() methods.
+
+
+Question 2:
+
+What method do you need to implement to control an object's printable representation?
+
+Your Answer:
+__repr__() 
+
+
+Question 3:
+
+Write an expression that produces a comma-separated representation of the elements in a list named lst.
+ If lst = ["monkey","parrot","penguin","tiger","bear"] then the result of the expression would be 'monkey, parrot, 
+ penguin, tiger, bear' . 
+The number of elements is not fixed however.
+
+Your Answer:
+", ".join(lst)
