@@ -1,3 +1,10 @@
+Here are your instructions:
+
+"""Write a GUI-based program that provides two Entry fields, a button and a label. When the button is clicked,
+the value of each Entry should (if possible) be converted into a float. If both conversions succeed, the 
+label should change to  the sum of the two numbers. Otherwise it should read "***ERROR***"."""
+
+###########################################################################################################################################################################################################################################################################
 from tkinter import *
 
 class Application(Frame):
