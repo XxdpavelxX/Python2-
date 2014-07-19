@@ -1,0 +1,35 @@
+Question 1:
+
+What separates the body of a message from its headers?
+
+Your Answer:
+Two consecutive CRLFs separate an email's headers from its body.
+
+"""
+Most textual Internet protocols (including HTTP, SMTP, FTP, IRC and many others) mandate the use of ASCII CR+LF
+(0x0D 0x0A) on the protocol level, but recommend that tolerant applications recognize lone LF as well. In practice,
+there are many applications that erroneously use the C newline character '\n' instead (see section Newline in programmin
+languages below). This leads to problems when trying to communicate with systems adhering to a stricter interpretation of
+the standards; one such system is the qmail MTA that actively refuses to accept messages from systems that send bare LF 
+instead of the required CR+LF.[3]
+"""
+
+http://en.wikipedia.org/wiki/Newline
+
+
+
+Question 2:
+
+What is the usual Content-Type of a multipart message?
+
+Your Answer:
+multipart/mixed
+
+
+
+Question 3:
+
+What function might you use to determine the mime type of a file?
+
+Your Answer:
+guess_type() function.
