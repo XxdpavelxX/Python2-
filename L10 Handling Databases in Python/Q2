@@ -1,0 +1,24 @@
+Question 1:
+
+In a SELECT statement, how do you retrieve all columns?
+
+Your Answer:
+Select * from Tablename.
+
+
+
+Question 2:
+
+How do you indicate that no data is available for a particular column and a given row?
+
+Your Answer:
+By using a special value called NULL.
+
+
+
+Question 3:
+
+Write a statement that retrieves the total number of rows from a table named "user".
+
+Your Answer:
+select count(*) from user
