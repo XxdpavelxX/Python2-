@@ -1,0 +1,32 @@
+Question 1:
+
+What does "SQL" stand for?
+
+Your Answer:
+Structured Query Language
+
+
+Question 2:
+
+What specifies how Python database drivers should interact with programs that use them?
+
+Your Answer:
+The Python DBAPI specifications. 
+
+
+Question 3:
+
+Which SQL statement would you use to add a new table to a database?
+
+Your Answer:
+Create Table table_name(attributes, attributes2, etc..)
+
+
+
+CREATE TABLE ...
+Question 4:
+
+What does the ALTER TABLE statement do?
+
+Your Answer:
+It modifies definitions already present in the data dictionary. It is used to add constraints to a table after it has already been created.
