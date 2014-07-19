@@ -1,0 +1,24 @@
+Question 1:
+
+What abbreviation is used for the specification of how a particular function should be called?
+
+Your Answer:
+API (Application Programmer Interface)
+
+
+Question 2:
+
+Write a SQL statement to determine how many rows exist in table message with a msgMessageId column value of "1234567890".
+
+Your Answer:
+select count (*) from table where msgMessageId="1234567890"
+
+Question 3:
+
+How do you establish a relationship between two tables in a relational database?
+
+Your Answer:
+Using a join (inner, outer, or left). Or using a foreign key.
+
+example:
+CREATE TABLE ( ... FOREIGN KEY (anid) REFERENCES animal(id), ...)
