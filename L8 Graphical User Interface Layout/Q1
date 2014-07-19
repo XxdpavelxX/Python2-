@@ -1,0 +1,24 @@
+Question 1:
+
+Using the pack geometry manager, how would you ensure that widget W occupied the full width and height of its containing element?
+
+Your Answer:
+Using the "fill(Both)" pack method. I can also use "expand=True" pack method so that widget expands with resizing of window.
+
+W.pack(fill=BOTH, expand=True)
+
+
+Question 2:
+
+What are the two most commonly used geometry managers in Tkinter?
+
+Your Answer:
+The pack and grid geometry managers.
+
+
+Question 3:
+
+When using grid layout, which argument to grid can you use to cause the cell content to align with one or more sides of the cell?
+
+Your Answer:
+The sticky()argument.
