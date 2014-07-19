@@ -1,0 +1,22 @@
+Question 1:
+
+Which widget would you normally use to display a short piece of static text?
+
+Your Answer:
+The Label widget.
+
+
+Question 2:
+
+How would you configure frame F in a grid layout to occupy three rows and two columns starting at row 3, column 2?
+
+Your Answer:
+F.grid(row=3, column=2, rowspan=3, columnspan=2, sticky=ALL)
+
+
+Question 3:
+
+Do the row and column numbers used with the grid layout manager need to be contiguous?
+
+Your Answer:
+No they do not.
