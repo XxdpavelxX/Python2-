@@ -1,0 +1,32 @@
+Question 1:
+
+What method of the Tkinter root object do you call to activate the GUI?
+
+Your Answer:
+The mainloop() method as in root.mainloop().
+
+
+Question 2:
+
+When an event handler is bound to an event using the bind() method, how is the event data passed to the handler?
+
+Your Answer:
+bind() dynamically connects a specific event type to a piece of code in a program. A widget's bind() method has two arguments. The first is the name of the event to be bound, and the second is the handler function to run when the event is detected within the widget. The handler is called whenever the specified button is pressed (mouse or keyboard).
+
+A function bound using a widget's bind() method is called with an argument. This argument is an event object, and contains information about the specific event that triggered the call to the event handler. 
+
+
+Question 3:
+
+What event would you bind to a widget in order to be able to detect all keystrokes?
+
+Your Answer:
+"" 
+
+
+Question 4:
+
+What value does an event handler need to return to stop the event from propagating to widgets further up the hierarchy?
+
+Your Answer:
+The string "break".
