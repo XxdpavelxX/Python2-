@@ -1,0 +1,50 @@
+Question 1:
+
+How do you add a menu bar to a Tkinter root window?
+
+Your Answer:
+To add a menu bar to a window, instantiate a Menu widget with the window as its parent, and configure it as the window's menu item. "menubar" is the empty menu created in the example below.
+
+from tkinter import *
+
+class App(Frame):
+    def __init__(self, master):
+        Frame.__init__(self, master)
+        self.grid()
+        self.widgets()
+    def widgets(self):
+        menubar = Menu(root)            
+        root.config(menu=menubar)
+        
+root=Tk()
+app=App(root)
+root.mainloop()
+
+
+Question 2:
+
+How do you add a file menu to the menu bar?
+
+Your Answer:
+You can add a pulldown Menu widget to the window's menu bar using the menu bar as its master and calling its add_cascade() method. Finally, you add choices to the pulldown using the pulldown's add_command() method. 
+
+        filemenu = Menu(menu)
+        menu.add_cascade(label="File", menu=filemenu)
+        
+root = Tk()
+app = Application(master=root)
+app.mainloop()
+
+
+
+Question 3:
+
+How do you add an "Open" command to the file menu that calls function f when the command is selected by the user?
+
+Your Answer:
+By following what we did in menudemo.py. you can add a pulldown Menu widget to the window's menu bar using the menu bar as its master and calling its add_cascade() method. Finally, you add choices to the pulldown using the pulldown's add_command() method. 
+
+eg
+filemenu = Menu(menu)
+menu.add_cascade(label="File", menu=filemenu) 
+filemenu.add_command(label="Open", command=self.f)
